@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid" style="background-color:#c0ebf3;">
+<div style="text-align:center;margin-bottom:70px">
+  <h1>
+    <b style="color:#264411;">Welcome to {{ title }}</b>
+  </h1>
+</div>
+
+<div id=navi style="background-color:#439409;margin-bottom:25px;color:white">
+  <div class="row" >
+      <ul id=unorder class="nav nav-pills">
+        <li routerLinkActive="active" style="background-color:#4cd13a;" ><a routerLink="/add-project"><h4 style="color:black">Add Project</h4></a></li>
+        <li routerLinkActive="active" style="background-color:#4cd13a;color:black"  ><a routerLink="/add-task"><h4 style="color:black">Add Task</h4></a></li>
+        <li routerLinkActive="active" style="background-color:#4cd13a;color:black"  ><a routerLink="/add-user"><h4 style="color:black">Add User</h4></a></li>
+        <li routerLinkActive="active" style="background-color:#4cd13a;color:black" ><a routerLink="/view-task"><h4 style="color:black">View Task</h4></a></li>
+      </ul>
+  </div> 
+
+</div>
+<router-outlet></router-outlet>
+</div>
